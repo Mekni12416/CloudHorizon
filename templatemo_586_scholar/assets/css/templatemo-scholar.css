@@ -87,7 +87,7 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4,h5, h6 {
   color: #1e1e1e;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -850,6 +850,36 @@ Services Style
   margin-bottom: 25px;
 }
 
+
+.section-heading div{
+  display :flex;
+  justify-content: center;
+  font-family:"Times New Roman", sans-serif;
+  font-size: 32px;
+}
+.section-heading h5{
+  font-size: 17px;
+  font-family:"Times New Roman", sans-serif;
+ 
+  margin: 25px 80px;
+}
+.section-heading p {
+  margin: 0px  80px 10px 80px;
+  margin-bottom:10px;
+  
+  
+  
+  
+}
+.container div h2 {
+  display :flex;
+  justify-content: center;
+  margin:100px 0px;
+  font-family:"Times New Roman", sans-serif;
+  font-size: 32px;
+  
+}
+
 /* 
 ---------------------------------------------
 About Style
@@ -1333,6 +1363,7 @@ Events Style
   position: relative;
   padding: 40px;
   margin-bottom: 96px;
+  
 }
 
 .events .item .image {
@@ -1406,14 +1437,136 @@ Events Style
   color: #fff;
   border-radius: 60px 0px 0px 60px;
 }
+.events_item{
+  border :1px solid;
+  border-color:#7a6ad8;
+}
+
+/* 
+---------------------------------------------
+Career Style
+--------------------------------------------- 
+*/
+
+.Career-container{
+  background-color:#7a6ad8;
+  padding:70px 0px;
+}
+.career-box{
+ margin:0px 70px;
+  
+}
+.career-title h2{
+  
+  display:flex;
+  justify-content: center;
+  font-family:"Times New Roman", sans-serif;
+  padding:17.25px 0px 0px;
+  text-transform: uppercase;
+ color:white;
+  
+}
+.career-title p{
+  display:flex;
+  justify-content: center;
+  font-family:"Times New Roman", sans-serif;
+  padding:17.25px 0px 0px;
+  font-size: 18px;
+  font-style: italic;
+  color:white;
+  margin-bottom: 60px;
+}
 
 
+
+.career-discription div{
+  display:flex;
+  justify-content: center;
+  margin:-35px 0px 70px;
+  font: 17px,"Times New Roman",sans-serif; 
+  color:white;
+}
+.career-discription h3{
+font-size:16px;
+text-transform: uppercase;
+color:white;
+
+
+}
+.career-box{
+  display:block;
+  
+  margin:0px 20%;
+
+}
+.career-discription p{
+  text-transform: uppercase;
+  font-size: 14px;
+font-family: "Roboto condensed",sans-serif;
+margin:0px 0px 20px;
+color:white;
+}
+.azer{
+  display: flex;
+  gap:30px; 
+}
+.career-discription p
+{
+  color:#A097E2;
+}
+.callout-btn-box button{
+  
+ border: none;
+  height: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fff;
+  padding: 0px 25px;
+  border-radius: 25px;
+  color: #7a6ad8;
+}
+
+/* 
+---------------------------------------------
+partners Style
+--------------------------------------------- 
+*/
+.partners-container{
+  border-bottom: 1px solid;
+}
+.partners-container h2{
+  display:flex;
+  justify-content: center;
+  font-family:"Times New Roman", sans-serif;
+  padding:17.25px 0px 0px;
+  text-transform: uppercase;
+  margin-top: 70px;
+  
+}
+.partners-container p{
+  display:flex;
+  justify-content: center;
+  font-family:"Times New Roman", sans-serif;
+  padding:17.25px 0px 0px;
+  font-size: 18px;
+  font-style: italic;
+  
+}
+.box-container{
+  display:flex;
+  justify-content: center;
+  gap:24px;
+  margin: 90px 0px;
+
+}
+.box-partner{
+border:1px solid;
+}
 /* 
 ---------------------------------------------
 Contact Style
 --------------------------------------------- 
 */
-
 .contact-us {
   margin-top: 80px;
   position: relative;
@@ -1895,6 +2048,8 @@ body {
     margin-top: 30px;
   }
 }
+
+
 
 @media (max-width: 1200px) {
   .header-area .main-nav #search input {
