@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>CloudHorizon</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!--
+
+TemplateMo 586 Scholar
+
+https://templatemo.com/tm-586-scholar
+
+-->
+    <style>
+      .services .service-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        min-height: 400px;
+        border: 1px solid #7d0096;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .services .service-item .main-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .services .service-item .main-button {
+        margin-top: auto;
+      }
+ 
+      .background-section {
+        margin-top: 10%;
+            position: relative;
+            width: 100%;
+            height: 52vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+            transition: background-image 2s ease-in-out;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Assombrit légèrement le fond */
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .partners-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.partners-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Conteneur pour les logos des partenaires */
+.partners-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Style pour chaque partenaire */
+.partner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour les images des partenaires */
+.partner img {
+    width: 150px;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+
+.partner img:hover {
+    opacity: 0.8;
+}
+ 
+
+    </style>
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <h1>CloudHorizon</h1>
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Serach Start ***** -->
+              <div class="search-input">
+                <form id="search" action="#">
+                  <input
+                    type="text"
+                    placeholder="Type Something"
+                    id="searchText"
+                    name="searchKeyword"
+                    onkeypress="handle"
+                  />
+                  <i class="fa fa-search"></i>
+                </form>
+              </div>
+              <!-- ***** Serach Start ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="#top" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#services">Services</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="#courses">Products</a>
+                </li>
+                <li class="scroll-to-section"><a href="">Career</a></li>
+                <li class="scroll-to-section"><a href="#events">Events</a></li>
+                <li class="scroll-to-section">
+                  <a href="#contact">Register Now!</a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="main-banner" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="owl-carousel owl-banner">
+              <div class="item item-1">
+                <div class="header-text">
+                  <span class="category"
+                    >CloudHorizon Your Realiable Partner To</span
+                  >
+                  <h2>MAKE BUSINESS SIMPLE</h2>
+                  <p>
+                    CloudHorizon : Votre partenaire de confiance pour simplifier
+                    le business et atteindre de nouveaux sommets !" 🚀
+                  </p>
+                  <div class="buttons">
+                    <div class="main-button">
+                      <a href="#">Request Demo</a>
+                    </div>
+                    <div class="icon-button">
+                      <a href="#"><i class="fa fa-play"></i> What's Scholar?</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item item-2">
+                <div class="header-text">
+                  <span class="category"
+                    >CloudHorizon Your Realiable Partner To</span
+                  >
+                  <h2>MAKE BUSINESS AGILE</h2>
+                  <p>
+                    CloudHorizon – Votre partenaire de confiance pour propulser
+                    votre entreprise vers l’agilité et l’excellence !
+                  </p>
+                  <div class="buttons">
+                    <div class="main-button">
+                      <a href="#">Request Demo</a>
+                    </div>
+                    <div class="icon-button">
+                      <a href="#"
+                        ><i class="fa fa-play"></i> What's the best result?</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item item-3">
+                <div class="header-text">
+                  <span class="category"
+                    >CloudHorizon Your Realiable Partner To</span
+                  >
+                  <h2>MAKE BUSINESS FLEXIBLE</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod temporious incididunt ut labore et dolore magna
+                    aliqua suspendisse.
+                  </p>
+                  <div class="buttons">
+                    <div class="main-button">
+                      <a href="#">Request Demo</a>
+                    </div>
+                    <div class="icon-button">
+                      <a href="#"
+                        ><i class="fa fa-play"></i> What's Online Course?</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/DTG_High-Automation_01.webp" alt="online degrees" />
+              </div>
+              <div class="main-content">
+                <h4>IT Optimization and Transformation</h4>
+                <p>
+                  We work with organizations to smoothly adopt modern IT
+                  infrastructures, applications and processes to bring
+                  innovation and insights to the business
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/images.jpeg" alt="short courses" />
+              </div>
+              <div class="main-content">
+                <h4>Hybrid and Multi-Cloud Infrastructure</h4>
+                <p>
+                  We work with organizations to ensure their hybrid and dynamic
+                  infrastructure is always on, scalable, agile and secure to
+                  enable business growth.
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/it-automation.webp" alt="web experts" />
+              </div>
+              <div class="main-content">
+                <h4>IT Automation and Management</h4>
+                <p>
+                  We help organizations to rapidly implement and securely
+                  operate hybrid infrastructures and modern applications at
+                  scale in order to save time and budgets to be spent on
+                  innovation.
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/what-is-cybersecurity.jpg" alt="web experts" />
+              </div>
+              <div class="main-content">
+                <h4>Cybersecurity</h4>
+                <p>
+                  We provide organizations with consulting services to ensure
+                  cybersecurity threats are effectively managed, risks are
+                  mitigated and assets are protected.
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/concept-education-etude-connaissances-developpement_53876-144838.avif" alt="web experts" />
+              </div>
+              <div class="main-content">
+                <h4>Training</h4>
+                <p>
+                  Our team of certified instructors delivers Red Hat official
+                  training courses and enable organizations to build required
+                  capabilities to get the best value of their IT investments.
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item">
+              <div class="icon">
+                <img src="assets/images/secure-DB.jpg" alt="web experts" />
+              </div>
+              <div class="main-content">
+                <h4>
+                  Databases design, management, optimization and operations
+                </h4>
+                <p>
+                  We perform databases installation in production environements
+                  easily and securily. We provide organizations with consulting
+                  services to manage and optimize the database deployment to
+                  ensure good performance.
+                </p>
+                <div class="main-button">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1">
+             <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Where shall we begin?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Dolor <strong>almesit amet</strong>, consectetur adipiscing
+                    elit, sed doesn't eiusmod tempor incididunt ut labore
+                    consectetur <code>adipiscing</code> elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis
+                    ipsum suspendisse ultrices gravida.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    How do we work together?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Dolor <strong>almesit amet</strong>, consectetur adipiscing
+                    elit, sed doesn't eiusmod tempor incididunt ut labore
+                    consectetur <code>adipiscing</code> elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis
+                    ipsum suspendisse ultrices gravida.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Why SCHOLAR is the best?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    There are more than one hundred responsive HTML templates to
+                    choose from <strong>Template</strong>Mo website. You can
+                    browse by different tags or categories.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Do we get the best support?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    You can also search on Google with specific keywords such as
+                    <code
+                      >templatemo business templates, templatemo gallery
+                      templates, admin dashboard templatemo, 3-column
+                      templatemo, etc.</code
+                    >
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-lg-5 align-self-center">
+            <div class="section-heading">
+              <h6>About Us</h6>
+              <h2>Who are We ?</h2>
+              <p>
+                CLOUDHORIZON is a technology company based in Dubai. We work with our customers to help them build the capability to react to quick business changes while continuing to innovate.
+
+              </p>
+              <div class="main-button">
+                <a href="#">Discover More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     
+
+    <section class="background-section">
+      <div class="overlay"></div>
+      <div class="content">CLOUDHORIZON IS YOUR TRUSTED PARTNER TO SUCCEED IN YOUR TRANSFORMATION JOURNEY</div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="section courses" id="courses">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              <h6></h6>
+              <h2>Our Products</h2>
+            </div>
+          </div>
+        </div>
+        <!-- <ul class="event_filter">
+          <li>
+            <a class="is_active" href="#!" data-filter="*">DEVSECOPS</a>
+          </li>
+          <li>
+            <a href="#!" data-filter=".design">Databases design, management, optimization and operations</a>
+          </li>
+          <li>
+            <a href="#!" data-filter=".development">IT Automation and Management</a>
+          </li>
+         
+        </ul> -->
+        <div class="row event_box">
+          <div
+            class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design"
+          >
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/gitlab.png" alt="" /></a>
+                <span class="category"></span>
+
+                
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/redhat.png" alt="" /></a>
+                <span class="category"></span>
+
+                
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development"
+          >
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/VMware-Logo.png" alt="" /></a>
+                <span class="category"></span>
+               
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/ansible.png" alt="" /></a>
+                <span class="category"></span>
+               
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress"
+          >
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/k10.webp" alt="" /></a>
+                <span class="category"></span>
+
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+            <div class="events_item">
+              <div class="thumb">
+                <a href="#"><img src="assets/images/mongodb.png" alt="" /></a>
+                <span class="category"></span>
+
+              </div>
+              <div class="down-content">
+                <h4></h4>
+              </div>
+            </div>
+            
+          </div>
+          
+  
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section fun-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="wrapper">
+              <div class="row">
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2
+                      class="timer count-title count-number"
+                      data-to="150"
+                      data-speed="1000"
+                    ></h2>
+                    <p class="count-text">Happy Students</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2
+                      class="timer count-title count-number"
+                      data-to="804"
+                      data-speed="1000"
+                    ></h2>
+                    <p class="count-text">Course Hours</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter">
+                    <h2
+                      class="timer count-title count-number"
+                      data-to="50"
+                      data-speed="1000"
+                    ></h2>
+                    <p class="count-text">Employed Students</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="counter end">
+                    <h2
+                      class="timer count-title count-number"
+                      data-to="15"
+                      data-speed="1000"
+                    ></h2>
+                    <p class="count-text">Years Experience</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section testimonials" , id="Career">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="owl-carousel owl-testimonials">
+              <div class="item">
+                <p>
+                  DISCOVER OUR END-OF-STUDY PROJECT BOOK FOR 2024
+                  Each end-of-study project is the starting point for a high-potential business project.
+                  
+                  want to work on something awesome? send your resume at
+                  ,,,,
+                </p>
+               
+              </div>
+         
+              
+            </div>
+          </div>
+          <div class="col-lg-5 align-self-center" , id="#Career">
+            <div class="section-heading">
+              <h2>Career</h2>
+              <h4>Be a part of something great</h4>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section events" id="events">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="section-heading">
+              
+              <h2>Our Partners</h2>
+              <h6>We are known for delivering trust.</h6>
+            </div>
+          </div>
+          
+          <section class="partners-section">
+            <div class="partners-container">
+                <div class="partner">
+                    <img src="assets/images/gitlab.png" alt="GitLab">
+                </div>
+                <div class="partner">
+                    <img src="assets/images/ansible.png" alt="Ansible">
+                </div>
+                <div class="partner">
+                    <img src="assets/images/Veeam_logo.webp" alt="Docker">
+                </div>
+                <div class="partner">
+                    <img src="assets/images/re.png" alt="Kubernete">
+                </div>
+                <div class="partner">
+                  <img src="assets/images/edb-logo.png" alt="Kubernete">
+              </div>
+              <div class="partner">
+                <img src="assets/images/mongodb.png" alt="Kubernete">
+            </div>
+                <!-- Ajoutez d'autres partenaires ici -->
+            </div>
+         </section>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-us section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-self-center">
+            <div class="section-heading">
+              <h6>Contact Us</h6>
+              
+             
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-us-content">
+              <form id="contact-form" action="" method="post">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input
+                        type="name"
+                        name="name"
+                        id="name"
+                        placeholder="Your Name..."
+                        autocomplete="on"
+                        required
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <input
+                        type="text"
+                        name="email"
+                        id="email"
+                        pattern="[^ @]*@[^ @]*"
+                        placeholder="Your E-mail..."
+                        required=""
+                      />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Your Message"
+                      ></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button
+                        type="submit"
+                        id="form-submit"
+                        class="orange-button"
+                      >
+                        Send Message Now
+                      </button>
+                    </fieldset>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="col-lg-12">
+          <p>
+            Copyright © 2036 Scholar Organization. All rights reserved.
+            &nbsp;&nbsp;&nbsp; Design:
+            <a href="https://templatemo.com" rel="nofollow" target="_blank"
+              >TemplateMo</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script>
+      const images = [
+          "assets/images/116238110.webp",
+          "assets/images/Cloud-header-image-770X421.webp",
+          "assets/images/concept-education-etude-connaissances-developpement_53876-144838.avif",
+          "assets/images/what-is-cybersecurity.jpg"
+      ];
+  
+      let index = 0;
+      const section = document.querySelector('.background-section');
+  
+      function changeBackground() {
+          section.style.backgroundImage = `url('${images[index]}')`;
+          index = (index + 1) % images.length;
+      }
+  
+      setInterval(changeBackground, 1000);
+      changeBackground(); // Initialise au premier chargement
+  </script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
